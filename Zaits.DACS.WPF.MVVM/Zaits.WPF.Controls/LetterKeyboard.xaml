@@ -1,0 +1,198 @@
+<UserControl x:Class="Zaits.WPF.Controls.LetterKeyboard"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:controls="clr-namespace:Zaits.WPF.Controls"
+             mc:Ignorable="d">
+    
+    <UserControl.Resources>
+        <Style TargetType="Button" x:Key="BaseBtn">
+                <Setter Property="Command"
+                        Value="{Binding CharButtonCommand, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type controls:LetterKeyboard}}}" />
+                <Setter Property="CommandParameter"
+                        Value="{Binding Content, RelativeSource={RelativeSource Self}}" />
+                
+                <Setter Property="BorderThickness" Value="0"/>
+                <Setter Property="Foreground" Value="White"/>
+                <Setter Property="FontSize" Value="15" />
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate TargetType="Button">
+                            <Grid>
+                                <Border Background="{TemplateBinding Background}" CornerRadius="3"/>
+                                <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                            </Grid>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+        
+            <Style TargetType="Button" x:Key="DefaultButton" BasedOn="{StaticResource BaseBtn}">
+                <Setter Property="Background" Value="RoyalBlue"></Setter>
+            </Style>
+        
+        <Style TargetType="Button" x:Key="BackSpaceButton" BasedOn="{StaticResource BaseBtn}">
+            <Setter Property="Background" Value="DarkRed"/>
+            <Setter Property="Command"
+                    Value="{Binding BackspaceButtonCommand, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type controls:LetterKeyboard}}}" />
+        </Style>
+        
+        <Style TargetType="Button" x:Key="ChangeLanguageButton">
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontSize" Value="15" />
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Grid>
+                            <Border Background="{TemplateBinding Background}" CornerRadius="3"/>
+                            <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                        </Grid>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="Background" Value="DarkRed"/>
+            <EventSetter Event="Click" Handler="ChangeLanguageButtonClick"/>
+        </Style>
+        
+        <Style TargetType="Button" x:Key="CapsLockButton" BasedOn="{StaticResource BaseBtn}">
+            <Setter Property="Background" Value="DarkRed"/>
+            <Setter Property="Command"
+                    Value="{Binding CapsLockButtonCommand, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type controls:LetterKeyboard}}}" />
+        </Style>
+        
+    </UserControl.Resources>
+    <Grid>
+        
+        <Grid x:Name="EnglishGrid" Visibility="Visible">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Button Grid.Row="0" Grid.Column="0" Content="Q" Style="{StaticResource DefaultButton}"/>
+            <Button Grid.Row="0" Grid.Column="1" Content="W" Style="{StaticResource DefaultButton}"/>
+            <Button Grid.Row="0" Grid.Column="2" Content="E" Style="{StaticResource DefaultButton}"/>
+            <Button Grid.Row="0" Grid.Column="3" Content="R" Style="{StaticResource DefaultButton}"/>
+            <Button Grid.Row="0" Grid.Column="4" Content="T" Style="{StaticResource DefaultButton}"/>
+            <Button Grid.Row="0" Grid.Column="5" Content="Y" Style="{StaticResource DefaultButton}"/>
+            <Button Grid.Row="0" Grid.Column="6" Content="U" Style="{StaticResource DefaultButton}"/>
+            <Button Grid.Row="0" Grid.Column="7" Content="I" Style="{StaticResource DefaultButton}"/>
+            <Button Grid.Row="0" Grid.Column="8" Content="O" Style="{StaticResource DefaultButton}"/>
+            <Button Grid.Row="0" Grid.Column="9" Content="P" Style="{StaticResource DefaultButton}"/>
+            <Button Grid.Row="0" Grid.Column="10" Content="Backspace" Style="{StaticResource BackSpaceButton}">
+            </Button>
+            
+            <Button Grid.Row="1" Grid.Column="0" Content="CapsLock" Style="{StaticResource CapsLockButton}">
+                
+            </Button>
+            <Button Grid.Row="1" Grid.Column="1" Content="A" Style="{StaticResource DefaultButton}"/>
+            <Button Grid.Row="1" Grid.Column="2" Content="S" Style="{StaticResource DefaultButton}"/>
+            <Button Grid.Row="1" Grid.Column="3" Content="D" Style="{StaticResource DefaultButton}"/>
+            <Button Grid.Row="1" Grid.Column="4" Content="F" Style="{StaticResource DefaultButton}"/>
+            <Button Grid.Row="1" Grid.Column="5" Content="G" Style="{StaticResource DefaultButton}"/>
+            <Button Grid.Row="1" Grid.Column="6" Content="H" Style="{StaticResource DefaultButton}"/>
+            <Button Grid.Row="1" Grid.Column="7" Content="J" Style="{StaticResource DefaultButton}"/>
+            <Button Grid.Row="1" Grid.Column="8" Content="K" Style="{StaticResource DefaultButton}"/>
+            <Button Grid.Row="1" Grid.Column="9" Content="L" Style="{StaticResource DefaultButton}"/>
+            
+            <Button Grid.Row="2" Grid.Column="1" Content="RU" Style="{StaticResource ChangeLanguageButton}"/>
+            
+            <Button Grid.Row="2" Grid.Column="2" Content="Z" Style="{StaticResource DefaultButton}"/>
+            <Button Grid.Row="2" Grid.Column="3" Content="X" Style="{StaticResource DefaultButton}"/>
+            <Button Grid.Row="2" Grid.Column="4" Content="C" Style="{StaticResource DefaultButton}"/>
+            <Button Grid.Row="2" Grid.Column="5" Content="V" Style="{StaticResource DefaultButton}"/>
+            <Button Grid.Row="2" Grid.Column="6" Content="B" Style="{StaticResource DefaultButton}"/>
+            <Button Grid.Row="2" Grid.Column="7" Content="N" Style="{StaticResource DefaultButton}"/>
+            <Button Grid.Row="2" Grid.Column="8" Content="M" Style="{StaticResource DefaultButton}"/>
+            
+            <Button Grid.Row="3" Grid.Column="3" Grid.ColumnSpan="5" Content=" " Style="{StaticResource DefaultButton}"/>
+        </Grid>
+        
+        <Grid x:Name="RussianGrid" Visibility="Collapsed">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Button Grid.Row="0" Grid.Column="0" Content="Й" Style="{StaticResource DefaultButton}"/>
+            <Button Grid.Row="0" Grid.Column="1" Content="Ц" Style="{StaticResource DefaultButton}"/>
+            <Button Grid.Row="0" Grid.Column="2" Content="У" Style="{StaticResource DefaultButton}"/>
+            <Button Grid.Row="0" Grid.Column="3" Content="К" Style="{StaticResource DefaultButton}"/>
+            <Button Grid.Row="0" Grid.Column="4" Content="Е" Style="{StaticResource DefaultButton}"/>
+            <Button Grid.Row="0" Grid.Column="5" Content="Н" Style="{StaticResource DefaultButton}"/>
+            <Button Grid.Row="0" Grid.Column="6" Content="Г" Style="{StaticResource DefaultButton}"/>
+            <Button Grid.Row="0" Grid.Column="7" Content="Ш" Style="{StaticResource DefaultButton}"/>
+            <Button Grid.Row="0" Grid.Column="8" Content="Щ" Style="{StaticResource DefaultButton}"/>
+            <Button Grid.Row="0" Grid.Column="9" Content="З" Style="{StaticResource DefaultButton}"/>
+            <Button Grid.Row="0" Grid.Column="10" Content="Х" Style="{StaticResource DefaultButton}"/>
+            <Button Grid.Row="0" Grid.Column="11" Content="Ъ" Style="{StaticResource DefaultButton}"/>
+            <Button Grid.Row="0" Grid.Column="12" Content="Backspace" Style="{StaticResource BackSpaceButton}">
+            </Button>
+            
+            <Button Grid.Row="1" Grid.Column="0" Content="CapsLock" Style="{StaticResource CapsLockButton}">
+                
+            </Button>
+            <Button Grid.Row="1" Grid.Column="1" Content="Ф" Style="{StaticResource DefaultButton}"/>
+            <Button Grid.Row="1" Grid.Column="2" Content="Ы" Style="{StaticResource DefaultButton}"/>
+            <Button Grid.Row="1" Grid.Column="3" Content="В" Style="{StaticResource DefaultButton}"/>
+            <Button Grid.Row="1" Grid.Column="4" Content="А" Style="{StaticResource DefaultButton}"/>
+            <Button Grid.Row="1" Grid.Column="5" Content="П" Style="{StaticResource DefaultButton}"/>
+            <Button Grid.Row="1" Grid.Column="6" Content="Р" Style="{StaticResource DefaultButton}"/>
+            <Button Grid.Row="1" Grid.Column="7" Content="О" Style="{StaticResource DefaultButton}"/>
+            <Button Grid.Row="1" Grid.Column="8" Content="Л" Style="{StaticResource DefaultButton}"/>
+            <Button Grid.Row="1" Grid.Column="9" Content="Д" Style="{StaticResource DefaultButton}"/>
+            <Button Grid.Row="1" Grid.Column="10" Content="Ж" Style="{StaticResource DefaultButton}"/>
+            <Button Grid.Row="1" Grid.Column="11" Content="Э" Style="{StaticResource DefaultButton}"/>
+            
+            <Button Grid.Row="2" Grid.Column="1" Content="EN" Style="{StaticResource ChangeLanguageButton}"/>
+            
+            <Button Grid.Row="2" Grid.Column="2" Content="Я" Style="{StaticResource DefaultButton}"/>
+            <Button Grid.Row="2" Grid.Column="3" Content="Ч" Style="{StaticResource DefaultButton}"/>
+            <Button Grid.Row="2" Grid.Column="4" Content="С" Style="{StaticResource DefaultButton}"/>
+            <Button Grid.Row="2" Grid.Column="5" Content="М" Style="{StaticResource DefaultButton}"/>
+            <Button Grid.Row="2" Grid.Column="6" Content="И" Style="{StaticResource DefaultButton}"/>
+            <Button Grid.Row="2" Grid.Column="7" Content="Т" Style="{StaticResource DefaultButton}"/>
+            <Button Grid.Row="2" Grid.Column="8" Content="Ь" Style="{StaticResource DefaultButton}"/>
+            <Button Grid.Row="2" Grid.Column="9" Content="Б" Style="{StaticResource DefaultButton}"/>
+            <Button Grid.Row="2" Grid.Column="10" Content="Ю" Style="{StaticResource DefaultButton}"/>
+
+            
+            <Button Grid.Row="3" Grid.Column="3" Grid.ColumnSpan="7" Content=" " Style="{StaticResource DefaultButton}"/>
+        </Grid>
+        
+    </Grid>
+</UserControl>

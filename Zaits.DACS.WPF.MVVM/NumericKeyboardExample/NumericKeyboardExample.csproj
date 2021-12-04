@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>net5.0-windows</TargetFramework>
+        <UseWPF>true</UseWPF>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Zaits.WPF.Controls\Zaits.WPF.Controls.csproj" />
+      <ProjectReference Include="..\Zaits.WPF.MVVM.Core\Zaits.WPF.MVVM.Core.csproj" />
+    </ItemGroup>
+
+</Project>

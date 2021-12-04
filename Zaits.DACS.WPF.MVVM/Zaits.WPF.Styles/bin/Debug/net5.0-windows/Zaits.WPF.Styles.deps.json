@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Zaits.WPF.Styles/1.0.0": {
+        "runtime": {
+          "Zaits.WPF.Styles.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Zaits.WPF.Styles/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

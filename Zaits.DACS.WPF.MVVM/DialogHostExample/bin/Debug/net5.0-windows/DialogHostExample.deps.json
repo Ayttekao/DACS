@@ -1,0 +1,63 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "DialogHostExample/1.0.0": {
+        "dependencies": {
+          "Zaits.WPF.Controls": "1.0.0"
+        },
+        "runtime": {
+          "DialogHostExample.dll": {}
+        }
+      },
+      "Zaits.DACS.WPF.MVVM/1.0.0": {
+        "dependencies": {
+          "Zaits.WPF.MVVM.Core": "1.0.0"
+        },
+        "runtime": {
+          "Zaits.DACS.WPF.MVVM.dll": {}
+        }
+      },
+      "Zaits.WPF.Controls/1.0.0": {
+        "dependencies": {
+          "Zaits.DACS.WPF.MVVM": "1.0.0",
+          "Zaits.WPF.MVVM.Core": "1.0.0"
+        },
+        "runtime": {
+          "Zaits.WPF.Controls.dll": {}
+        }
+      },
+      "Zaits.WPF.MVVM.Core/1.0.0": {
+        "runtime": {
+          "Zaits.WPF.MVVM.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DialogHostExample/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Zaits.DACS.WPF.MVVM/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Zaits.WPF.Controls/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Zaits.WPF.MVVM.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

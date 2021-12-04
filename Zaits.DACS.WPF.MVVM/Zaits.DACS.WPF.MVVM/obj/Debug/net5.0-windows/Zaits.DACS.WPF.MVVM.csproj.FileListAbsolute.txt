@@ -1,0 +1,15 @@
+C:\Users\Ayttekao\Desktop\DACS\First\Zaits.DACS.WPF.MVVM\Zaits.DACS.WPF.MVVM\bin\Debug\net5.0-windows\Zaits.DACS.WPF.MVVM.deps.json
+C:\Users\Ayttekao\Desktop\DACS\First\Zaits.DACS.WPF.MVVM\Zaits.DACS.WPF.MVVM\bin\Debug\net5.0-windows\Zaits.DACS.WPF.MVVM.dll
+C:\Users\Ayttekao\Desktop\DACS\First\Zaits.DACS.WPF.MVVM\Zaits.DACS.WPF.MVVM\bin\Debug\net5.0-windows\ref\Zaits.DACS.WPF.MVVM.dll
+C:\Users\Ayttekao\Desktop\DACS\First\Zaits.DACS.WPF.MVVM\Zaits.DACS.WPF.MVVM\bin\Debug\net5.0-windows\Zaits.DACS.WPF.MVVM.pdb
+C:\Users\Ayttekao\Desktop\DACS\First\Zaits.DACS.WPF.MVVM\Zaits.DACS.WPF.MVVM\bin\Debug\net5.0-windows\Zaits.WPF.MVVM.Core.dll
+C:\Users\Ayttekao\Desktop\DACS\First\Zaits.DACS.WPF.MVVM\Zaits.DACS.WPF.MVVM\bin\Debug\net5.0-windows\Zaits.WPF.MVVM.Core.pdb
+C:\Users\Ayttekao\Desktop\DACS\First\Zaits.DACS.WPF.MVVM\Zaits.DACS.WPF.MVVM\obj\Debug\net5.0-windows\Zaits.DACS.WPF.MVVM.csproj.AssemblyReference.cache
+C:\Users\Ayttekao\Desktop\DACS\First\Zaits.DACS.WPF.MVVM\Zaits.DACS.WPF.MVVM\obj\Debug\net5.0-windows\Zaits.DACS.WPF.MVVM.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ayttekao\Desktop\DACS\First\Zaits.DACS.WPF.MVVM\Zaits.DACS.WPF.MVVM\obj\Debug\net5.0-windows\Zaits.DACS.WPF.MVVM.AssemblyInfoInputs.cache
+C:\Users\Ayttekao\Desktop\DACS\First\Zaits.DACS.WPF.MVVM\Zaits.DACS.WPF.MVVM\obj\Debug\net5.0-windows\Zaits.DACS.WPF.MVVM.AssemblyInfo.cs
+C:\Users\Ayttekao\Desktop\DACS\First\Zaits.DACS.WPF.MVVM\Zaits.DACS.WPF.MVVM\obj\Debug\net5.0-windows\Zaits.DACS.WPF.MVVM.csproj.CoreCompileInputs.cache
+C:\Users\Ayttekao\Desktop\DACS\First\Zaits.DACS.WPF.MVVM\Zaits.DACS.WPF.MVVM\obj\Debug\net5.0-windows\Zaits.DACS.WPF.MVVM.csproj.CopyComplete
+C:\Users\Ayttekao\Desktop\DACS\First\Zaits.DACS.WPF.MVVM\Zaits.DACS.WPF.MVVM\obj\Debug\net5.0-windows\Zaits.DACS.WPF.MVVM.dll
+C:\Users\Ayttekao\Desktop\DACS\First\Zaits.DACS.WPF.MVVM\Zaits.DACS.WPF.MVVM\obj\Debug\net5.0-windows\ref\Zaits.DACS.WPF.MVVM.dll
+C:\Users\Ayttekao\Desktop\DACS\First\Zaits.DACS.WPF.MVVM\Zaits.DACS.WPF.MVVM\obj\Debug\net5.0-windows\Zaits.DACS.WPF.MVVM.pdb

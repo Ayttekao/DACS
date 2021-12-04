@@ -1,0 +1,32 @@
+<UserControl x:Class="Controls.DialogHost"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:controls="clr-namespace:Controls"
+             mc:Ignorable="d"
+             d:DesignHeight="300" d:DesignWidth="300">
+    <UserControl.Template>
+        <ControlTemplate>
+            <Grid>
+                <Border HorizontalAlignment="Stretch" 
+                        Background = "Black"
+                        Opacity="{Binding DialogHostOpacity, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type controls:DialogHost}}}">
+                    <Border HorizontalAlignment ="Center" 
+                            VerticalAlignment="Center" 
+                            Background="DarkGray" 
+                            MinHeight="200" 
+                            MaxHeight="250"
+                            MinWidth="200"
+                            MaxWidth="700"
+                            CornerRadius="{Binding DialogHostCornerRadius, 
+                RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type controls:DialogHost}}}">
+
+                        <ContentPresenter Margin="25" Content="{Binding Content, 
+                RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type controls:DialogHost}}}"/>
+                    </Border>    
+                </Border>
+            </Grid>
+        </ControlTemplate>
+    </UserControl.Template>
+</UserControl>

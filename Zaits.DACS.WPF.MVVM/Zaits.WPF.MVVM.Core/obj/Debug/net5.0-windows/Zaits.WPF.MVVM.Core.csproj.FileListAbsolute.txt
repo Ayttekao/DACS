@@ -1,0 +1,12 @@
+C:\Users\Ayttekao\Desktop\DACS\First\Zaits.DACS.WPF.MVVM\Zaits.WPF.MVVM.Core\bin\Debug\net5.0-windows\Zaits.WPF.MVVM.Core.deps.json
+C:\Users\Ayttekao\Desktop\DACS\First\Zaits.DACS.WPF.MVVM\Zaits.WPF.MVVM.Core\bin\Debug\net5.0-windows\Zaits.WPF.MVVM.Core.dll
+C:\Users\Ayttekao\Desktop\DACS\First\Zaits.DACS.WPF.MVVM\Zaits.WPF.MVVM.Core\bin\Debug\net5.0-windows\ref\Zaits.WPF.MVVM.Core.dll
+C:\Users\Ayttekao\Desktop\DACS\First\Zaits.DACS.WPF.MVVM\Zaits.WPF.MVVM.Core\bin\Debug\net5.0-windows\Zaits.WPF.MVVM.Core.pdb
+C:\Users\Ayttekao\Desktop\DACS\First\Zaits.DACS.WPF.MVVM\Zaits.WPF.MVVM.Core\obj\Debug\net5.0-windows\Zaits.WPF.MVVM.Core.csproj.AssemblyReference.cache
+C:\Users\Ayttekao\Desktop\DACS\First\Zaits.DACS.WPF.MVVM\Zaits.WPF.MVVM.Core\obj\Debug\net5.0-windows\Zaits.WPF.MVVM.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ayttekao\Desktop\DACS\First\Zaits.DACS.WPF.MVVM\Zaits.WPF.MVVM.Core\obj\Debug\net5.0-windows\Zaits.WPF.MVVM.Core.AssemblyInfoInputs.cache
+C:\Users\Ayttekao\Desktop\DACS\First\Zaits.DACS.WPF.MVVM\Zaits.WPF.MVVM.Core\obj\Debug\net5.0-windows\Zaits.WPF.MVVM.Core.AssemblyInfo.cs
+C:\Users\Ayttekao\Desktop\DACS\First\Zaits.DACS.WPF.MVVM\Zaits.WPF.MVVM.Core\obj\Debug\net5.0-windows\Zaits.WPF.MVVM.Core.csproj.CoreCompileInputs.cache
+C:\Users\Ayttekao\Desktop\DACS\First\Zaits.DACS.WPF.MVVM\Zaits.WPF.MVVM.Core\obj\Debug\net5.0-windows\Zaits.WPF.MVVM.Core.dll
+C:\Users\Ayttekao\Desktop\DACS\First\Zaits.DACS.WPF.MVVM\Zaits.WPF.MVVM.Core\obj\Debug\net5.0-windows\ref\Zaits.WPF.MVVM.Core.dll
+C:\Users\Ayttekao\Desktop\DACS\First\Zaits.DACS.WPF.MVVM\Zaits.WPF.MVVM.Core\obj\Debug\net5.0-windows\Zaits.WPF.MVVM.Core.pdb

@@ -1,0 +1,267 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Ayttekao\\Desktop\\DACS\\First\\Zaits.DACS.WPF.MVVM\\MessageDialogExample\\MessageDialogExample.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Ayttekao\\Desktop\\DACS\\First\\Zaits.DACS.WPF.MVVM\\MessageDialogExample\\MessageDialogExample.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Ayttekao\\Desktop\\DACS\\First\\Zaits.DACS.WPF.MVVM\\MessageDialogExample\\MessageDialogExample.csproj",
+        "projectName": "MessageDialogExample",
+        "projectPath": "C:\\Users\\Ayttekao\\Desktop\\DACS\\First\\Zaits.DACS.WPF.MVVM\\MessageDialogExample\\MessageDialogExample.csproj",
+        "packagesPath": "C:\\Users\\Ayttekao\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ayttekao\\Desktop\\DACS\\First\\Zaits.DACS.WPF.MVVM\\MessageDialogExample\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Ayttekao\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0-windows7.0": {
+            "targetAlias": "net5.0-windows",
+            "projectReferences": {
+              "C:\\Users\\Ayttekao\\Desktop\\DACS\\First\\Zaits.DACS.WPF.MVVM\\Zaits.WPF.Controls\\Zaits.WPF.Controls.csproj": {
+                "projectPath": "C:\\Users\\Ayttekao\\Desktop\\DACS\\First\\Zaits.DACS.WPF.MVVM\\Zaits.WPF.Controls\\Zaits.WPF.Controls.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Ayttekao\\Desktop\\DACS\\First\\Zaits.DACS.WPF.MVVM\\Zaits.DACS.WPF.MVVM\\Zaits.DACS.WPF.MVVM.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Ayttekao\\Desktop\\DACS\\First\\Zaits.DACS.WPF.MVVM\\Zaits.DACS.WPF.MVVM\\Zaits.DACS.WPF.MVVM.csproj",
+        "projectName": "Zaits.DACS.WPF.MVVM",
+        "projectPath": "C:\\Users\\Ayttekao\\Desktop\\DACS\\First\\Zaits.DACS.WPF.MVVM\\Zaits.DACS.WPF.MVVM\\Zaits.DACS.WPF.MVVM.csproj",
+        "packagesPath": "C:\\Users\\Ayttekao\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ayttekao\\Desktop\\DACS\\First\\Zaits.DACS.WPF.MVVM\\Zaits.DACS.WPF.MVVM\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Ayttekao\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0-windows7.0": {
+            "targetAlias": "net5.0-windows",
+            "projectReferences": {
+              "C:\\Users\\Ayttekao\\Desktop\\DACS\\First\\Zaits.DACS.WPF.MVVM\\Zaits.WPF.MVVM.Core\\Zaits.WPF.MVVM.Core.csproj": {
+                "projectPath": "C:\\Users\\Ayttekao\\Desktop\\DACS\\First\\Zaits.DACS.WPF.MVVM\\Zaits.WPF.MVVM.Core\\Zaits.WPF.MVVM.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Ayttekao\\Desktop\\DACS\\First\\Zaits.DACS.WPF.MVVM\\Zaits.WPF.Controls\\Zaits.WPF.Controls.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Ayttekao\\Desktop\\DACS\\First\\Zaits.DACS.WPF.MVVM\\Zaits.WPF.Controls\\Zaits.WPF.Controls.csproj",
+        "projectName": "Zaits.WPF.Controls",
+        "projectPath": "C:\\Users\\Ayttekao\\Desktop\\DACS\\First\\Zaits.DACS.WPF.MVVM\\Zaits.WPF.Controls\\Zaits.WPF.Controls.csproj",
+        "packagesPath": "C:\\Users\\Ayttekao\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ayttekao\\Desktop\\DACS\\First\\Zaits.DACS.WPF.MVVM\\Zaits.WPF.Controls\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Ayttekao\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0-windows7.0": {
+            "targetAlias": "net5.0-windows",
+            "projectReferences": {
+              "C:\\Users\\Ayttekao\\Desktop\\DACS\\First\\Zaits.DACS.WPF.MVVM\\Zaits.DACS.WPF.MVVM\\Zaits.DACS.WPF.MVVM.csproj": {
+                "projectPath": "C:\\Users\\Ayttekao\\Desktop\\DACS\\First\\Zaits.DACS.WPF.MVVM\\Zaits.DACS.WPF.MVVM\\Zaits.DACS.WPF.MVVM.csproj"
+              },
+              "C:\\Users\\Ayttekao\\Desktop\\DACS\\First\\Zaits.DACS.WPF.MVVM\\Zaits.WPF.MVVM.Core\\Zaits.WPF.MVVM.Core.csproj": {
+                "projectPath": "C:\\Users\\Ayttekao\\Desktop\\DACS\\First\\Zaits.DACS.WPF.MVVM\\Zaits.WPF.MVVM.Core\\Zaits.WPF.MVVM.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Ayttekao\\Desktop\\DACS\\First\\Zaits.DACS.WPF.MVVM\\Zaits.WPF.MVVM.Core\\Zaits.WPF.MVVM.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Ayttekao\\Desktop\\DACS\\First\\Zaits.DACS.WPF.MVVM\\Zaits.WPF.MVVM.Core\\Zaits.WPF.MVVM.Core.csproj",
+        "projectName": "Zaits.WPF.MVVM.Core",
+        "projectPath": "C:\\Users\\Ayttekao\\Desktop\\DACS\\First\\Zaits.DACS.WPF.MVVM\\Zaits.WPF.MVVM.Core\\Zaits.WPF.MVVM.Core.csproj",
+        "packagesPath": "C:\\Users\\Ayttekao\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ayttekao\\Desktop\\DACS\\First\\Zaits.DACS.WPF.MVVM\\Zaits.WPF.MVVM.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Ayttekao\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0-windows7.0": {
+            "targetAlias": "net5.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

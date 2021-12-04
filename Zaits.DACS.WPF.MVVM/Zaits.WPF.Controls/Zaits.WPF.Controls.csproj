@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0-windows</TargetFramework>
+        <UseWPF>true</UseWPF>
+        <RootNamespace>Controls</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Zaits.DACS.WPF.MVVM\Zaits.DACS.WPF.MVVM.csproj" />
+      <ProjectReference Include="..\Zaits.WPF.MVVM.Core\Zaits.WPF.MVVM.Core.csproj" />
+    </ItemGroup>
+
+</Project>

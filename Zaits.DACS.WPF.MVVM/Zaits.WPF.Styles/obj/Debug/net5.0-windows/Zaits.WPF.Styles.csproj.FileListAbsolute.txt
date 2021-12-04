@@ -1,0 +1,15 @@
+C:\Users\Ayttekao\Desktop\DACS\First\Zaits.DACS.WPF.MVVM\Zaits.WPF.Styles\bin\Debug\net5.0-windows\Zaits.WPF.Styles.deps.json
+C:\Users\Ayttekao\Desktop\DACS\First\Zaits.DACS.WPF.MVVM\Zaits.WPF.Styles\bin\Debug\net5.0-windows\Zaits.WPF.Styles.dll
+C:\Users\Ayttekao\Desktop\DACS\First\Zaits.DACS.WPF.MVVM\Zaits.WPF.Styles\bin\Debug\net5.0-windows\ref\Zaits.WPF.Styles.dll
+C:\Users\Ayttekao\Desktop\DACS\First\Zaits.DACS.WPF.MVVM\Zaits.WPF.Styles\bin\Debug\net5.0-windows\Zaits.WPF.Styles.pdb
+C:\Users\Ayttekao\Desktop\DACS\First\Zaits.DACS.WPF.MVVM\Zaits.WPF.Styles\obj\Debug\net5.0-windows\Zaits.WPF.Styles.csproj.AssemblyReference.cache
+C:\Users\Ayttekao\Desktop\DACS\First\Zaits.DACS.WPF.MVVM\Zaits.WPF.Styles\obj\Debug\net5.0-windows\ControlSytles.baml
+C:\Users\Ayttekao\Desktop\DACS\First\Zaits.DACS.WPF.MVVM\Zaits.WPF.Styles\obj\Debug\net5.0-windows\Zaits.WPF.Styles_MarkupCompile.cache
+C:\Users\Ayttekao\Desktop\DACS\First\Zaits.DACS.WPF.MVVM\Zaits.WPF.Styles\obj\Debug\net5.0-windows\Zaits.WPF.Styles.g.resources
+C:\Users\Ayttekao\Desktop\DACS\First\Zaits.DACS.WPF.MVVM\Zaits.WPF.Styles\obj\Debug\net5.0-windows\Zaits.WPF.Styles.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ayttekao\Desktop\DACS\First\Zaits.DACS.WPF.MVVM\Zaits.WPF.Styles\obj\Debug\net5.0-windows\Zaits.WPF.Styles.AssemblyInfoInputs.cache
+C:\Users\Ayttekao\Desktop\DACS\First\Zaits.DACS.WPF.MVVM\Zaits.WPF.Styles\obj\Debug\net5.0-windows\Zaits.WPF.Styles.AssemblyInfo.cs
+C:\Users\Ayttekao\Desktop\DACS\First\Zaits.DACS.WPF.MVVM\Zaits.WPF.Styles\obj\Debug\net5.0-windows\Zaits.WPF.Styles.csproj.CoreCompileInputs.cache
+C:\Users\Ayttekao\Desktop\DACS\First\Zaits.DACS.WPF.MVVM\Zaits.WPF.Styles\obj\Debug\net5.0-windows\Zaits.WPF.Styles.dll
+C:\Users\Ayttekao\Desktop\DACS\First\Zaits.DACS.WPF.MVVM\Zaits.WPF.Styles\obj\Debug\net5.0-windows\ref\Zaits.WPF.Styles.dll
+C:\Users\Ayttekao\Desktop\DACS\First\Zaits.DACS.WPF.MVVM\Zaits.WPF.Styles\obj\Debug\net5.0-windows\Zaits.WPF.Styles.pdb
